@@ -1,3 +1,5 @@
 <template>
-  <div>events page</div>
+  <div class="Main">
+    <ProfileHeaderAvatar />
+  </div>
 </template>
