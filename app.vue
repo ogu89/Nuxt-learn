@@ -1,6 +1,15 @@
 <template>
   <div>
-    <NuxtWelcome />
-    <h2>hi</h2>
+    <NuxtLayout>
+      <header>
+        <ul>
+          <li>
+            <NuxtLink to="/">Home</NuxtLink>
+            <NuxtLink to="/events">Evens</NuxtLink>
+          </li>
+        </ul>
+      </header>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
