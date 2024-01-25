@@ -24,5 +24,8 @@
   "main": "index.js",
   "repository": "https://github.com/ogu89/Nuxt-learn.git",
   "author": "ogu89 <kawakami.a@ctw.inc>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@nuxt/content": "^2.11.0"
+  }
 }
