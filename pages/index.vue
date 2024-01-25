@@ -5,11 +5,17 @@
   <IconsBell />
 </template> -->
 
-<script setup>
-// const { sayHello } = useUtils();
-// sayHello();
+<!-- <script setup>
+const { sayHello } = useUtils();
+sayHello();
 const { $sayHello } = useNuxtApp();
 $sayHello("hye");
+</script> -->
+
+<script setup>
+definePageMeta({
+  middleware: "auth",
+});
 </script>
 
 <template>
