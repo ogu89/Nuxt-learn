@@ -6,8 +6,10 @@
 </template> -->
 
 <script setup>
-const { sayHello } = useUtils();
-sayHello();
+// const { sayHello } = useUtils();
+// sayHello();
+const { $sayHello } = useNuxtApp();
+$sayHello("hye");
 </script>
 
 <template>
