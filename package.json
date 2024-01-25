@@ -26,6 +26,8 @@
   "author": "ogu89 <kawakami.a@ctw.inc>",
   "license": "MIT",
   "dependencies": {
-    "@nuxt/content": "^2.11.0"
+    "@nuxt/content": "^2.11.0",
+    "@pinia/nuxt": "^0.5.1",
+    "pinia": "^2.1.7"
   }
 }

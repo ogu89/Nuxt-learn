@@ -1,8 +1,18 @@
-<script setup></script>
+<script setup>
+import { useCounterStore } from "~/stores/myStore";
+const store = useCounterStore();
+
+console.log(store);
+</script>
 
 <template>
   <div class="container py-3 mx-auto Main">
-    <h1 class="text-teal-500">Hello Nuxt 3</h1>
+    <div>
+      Counter: {{ counter }}
+      <button @click="counter++">+</button>
+      <button @click="counter--">-</button>
+    </div>
+    <Counter />
   </div>
 </template>
 
