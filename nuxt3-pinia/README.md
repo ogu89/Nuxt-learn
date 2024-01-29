@@ -72,4 +72,8 @@ yarn preview
 bun run preview
 ```
 
+## Link:
+https://dev.to/rafaelmagalhaes/pinia-and-nuxt-3-4ij5
+
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
